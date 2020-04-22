@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"pretty": true,
+		"module": "commonjs",
+		"target": "es6",
+		"typeRoots": [
+			"node_modules/@types/",
+			"types/"
+		],
+		"experimentalDecorators": true
+	},
+	"exclude": [
+		"**/node_modules/*"
+	],
+	"awesomeTypescriptLoaderOptions": {
+		"reportFiles": [
+			"./src/**/*"
+		]
+	}
+}
